@@ -9,7 +9,7 @@ yum -y install xfce*
 
 yum -y install curl firefox
 
-wget http://cnvagex.googlecode.com/files/install_flash_player_11_linux.x86_64.tar.gz
+wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cnvagex/install_flash_player_11_linux.x86_64.tar.gz
 
 tar zxvf install_flash_player_11_linux.x86_64.tar.gz
 mkdir -p ~/.mozilla/plugins/
