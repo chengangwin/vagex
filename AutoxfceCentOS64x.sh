@@ -1,4 +1,6 @@
 #!/bin/bash
+bin/initdb.sh -rootUser=root -rootPass=password
+
 wget https://raw.githubusercontent.com/catonisland/Vagex-For-CentOS-6/master/epel-release-6-8.noarch.rpm
 rpm -ivh epel-release-6-8.noarch.rpm
 yum groupinstall xfce
