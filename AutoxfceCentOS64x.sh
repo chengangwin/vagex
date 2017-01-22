@@ -1,5 +1,8 @@
 #!/bin/bash
-yum -y install vnc-server
+wget https://raw.githubusercontent.com/catonisland/Vagex-For-CentOS-6/master/epel-release-6-8.noarch.rpm
+rpm -ivh epel-release-6-8.noarch.rpm
+yum groupinstall xfce
+yum install tigervnc tigervnc-server
 
 vncserver
 pkill -9 vnc
