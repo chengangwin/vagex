@@ -4,7 +4,7 @@ RUN yum update -y \
     && yum -y install wget vim tigervnc-server epel-release firefox \
     && yum -y groupinstall xfce \
     && yum clean all
-ENV VNC_PW=xiaosong
+ENV VNC_PW=chen
 RUN mkdir /root/.vnc/ \
     && wget http://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.635/install_flash_player_11_linux.x86_64.tar.gz \
     && mkdir flash_player \
